@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container-xxl container-xl container">
+      <!--desktop uchun-->
+      <div class="row align-items-center desktop">
+        <div class="col-3">
+          <div class="logo">
+            <img src="img/logo.png" class="img-fluid">
+            <h1 class="logo_titel">РУСВЕРИФ</h1>
+            <p>Любые виды верификаций!</p>
+            <a class="btn btn-info w-100" href="tel:8 800 555-35-35">8 800 555-35-35</a>
+            <a class="btn btn-danger w-100" href="mailto:Rusverif@yandex.ru">Rusverif@yandex.ru</a>
+          </div>
+        </div>
+        <div class="col-6 p-md-2 menu-class">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Цены</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Оплата и доставка</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Отзывы</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Контакты</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <form class="search-form mt-4">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Поиск по сайту..." aria-label="Input group example"
+                aria-describedby="basic-addon1">
+              <span class="input-group-text" id="basic-addon1">
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffcc" class="bi bi-search"
+                  viewBox="0 0 16 16">
+                  <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0">
+                  </path>
+                </svg>
+              </span>
+
+            </div>
+          </form>
+
+        </div>
+        <div class="col-md-3 col-12 call-button-box">
+          <div class="call-button_grup">
+            <a class="call_button d-block" id="call_button">
+              <div class="callimg"> <img class="img-fluid" src="img/Traced Image.svg"></div>
+              <h4>Клик-клак</h4>
+              <p>И мы вам перезвоним!</p>
+
+
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!--end desktop-->
+
+    <!--Start mobil-->
+    <div class="mobil row m-2 align-items-center justify-content-center">
+      <div class="col-3">
+        <div class="d-flex">
+          <img src="img/Frame 11.svg" class="img-fluid ">
+          <img src="img/Frame 15 (1).svg" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="logo">
+          <img src="img/logo.png" class="img-fluid w-25">
+          <h1 class="logo_titel">РУСВЕРИФ</h1>
+          <p>Любые виды верификаций!</p>
+
+        </div>
+      </div>
+      <div class="col-3">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Главная</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Цены</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Оплата и доставка</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Отзывы</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled">Контакты</a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="col-10">
+        <form class="search-form mt-4">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Поиск по сайту..." aria-label="Input group example"
+              aria-describedby="basic-addon1">
+            <span class="input-group-text" id="basic-addon1">
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffcc" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0">
+                </path>
+              </svg>
+            </span>
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </header>
+  <!-- Main -->
+  <main class="main m-0 p-0">
+    <div class="container-xxl container-xl">
+      <nav class="navbr_main">
+        <ul class="desktop d-flex justify-content-between">
+          <li><a href="">Верификация <br>криптобирж</a></li>
+          <li><a href="">Верификация<br> банков</a></li>
+          <li><a class="" href="#">Верификация <br>криптобирж</a></li>
+          <li><a href="">ID-Карты / ВНЖ / <br>Водительские удостоверения</a></li>
+          <li><a href="">KYC/ <br>AML</a></li>
+        </ul>
+        <div class=" dropdowns w-100">
+          <div class="button d-flex justify-content-between" id="dropdown">
+            <span> Выберите услугу </span>
+          </div>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Верификация криптобирж
+              </a></li>
+            <li><a class="dropdown-item" href="#">Верификация банков</a></li>
+            <li><a class="dropdown-item" href="#">Верификация криптобирж</a></li>
+            <li><a class="dropdown-item" href="#">ID-Карты / ВНЖ / Водительские удостоверения</a></li>
+            <li><a class="dropdown-item" href="#">AML</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </main>
+  <section>
+    <div class="container-xxl container-xl">
+      <article>
+        <h2>КАК ЗАКАЗАТЬ ВЕРИФИКАЦИЮ?</h2>
+        <p class="text">
+          <span class="span">Дорогие друзья!</span>
+          <span class="text-wrapper-8">
+            Если вдруг у вас есть какие-либо предложения по сотрудничеству или вы не нашли нужный вам документ у нас
+            на сайте, вы оптовый клиент или хотите работать с нам на постоянной основе - мы сделаем всё, чтобы вам
+            было комфортно и в максимально сжатые сроки сделаем вам предложение, от которого вы не сможете
+            отказаться!<br></span>
+        </p>
+        <p class="text">
+          <span class="text-wrapper-8">Будьте абсолютно точно уверены, чтобы вы не захотели в рынке данных тематик,
+            именно мы сможем сделать вам
+            самое выгодное предложение и предоставить непревзойденное качество - работаем с клиентом до успеха, до
+            победы.<br></span>
+        </p>
+        <p class="text">
+          <span class="text-wrapper-8">Работая с другими сервисами вы рискуете столкнуться с перекупами, которые
+            закупают карточки у нас, и вы
+            просто-напросто переплатите и потеряете деньги, а из-за некачественного сервиса доставки еще и время. Так
+            как мир нас и так поставил в достаточно сложную ситуация, давайте будем экономными и не тратить деньги,
+            что зазря! Наши операторы ждут ваших звонков, а мы ждем ваших улыбок, хорошего настроения и благодарностей
+            дорогие друзья</span>
+        </p>
+      </article>
+      <div class="message row bg-white justify-content-center align-items-center p-md-3 p-2 mb-3">
+        <div class="col-md-3 col-12">
+          <div class="text-wraper">
+            <h4>Оставьте нам заявку прямо сейчас</h4>
+            <p>И наш оператор свяжется с Вами в течении 15 минут.</p>
+          </div>
+        </div>
+        <div class="col-md-1 arrow-messge ">
+          <img src="img/Arrow 1.svg" class="img-fluid w-50">
+
+        </div>
+        <div class="col-md-7">
+          <form action="">
+            <div class="form row align-items-center justify-content-between">
+              <div class="col-md-6">
+                <input class="form-control w-100 mb-3" type="text" placeholder="Имя*"
+                  aria-label="Disabled input example">
+                <input class="form-control" type="text" placeholder="Телефон или EMAIL*"
+                  aria-label="Disabled input example">
+
+              </div>
+              <div class="col-md-6">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <div class="col-md-12">
+                <button type="button" class="btn btn-primary w-100 mt-3">оставить заявку</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+      <article>
+        <p class="text">
+          <span class="text-wrapper-8">После событий 22 года (а фактически за долго до) жителям Российской Федерации,
+            имеющим Российский
+            паспорт, из-за постоянного планомерного введения пакетов санкций со стороны запада и США, стало совсем не
+            просто проходить регистрации, верификации и подтверждать свою личность на всевозможных ресурсах и
+            сервисах.<br></span>
+        </p>
+        <p class="text">
+          <span class="text-wrapper-8">Наша команда пришла к вам на помощь! Мы играючи решим ваш вопрос по верификации
+            будь то крипто бирж
+            (Binance, coinbase Exchange, Kraken, KuCoin, Bitfinex, Bybit, Bitsmap, Gate.io, OKX, Huobi, Mexc,
+            WhiteBIT, LBank, Biconomy Exchange, Coincheck, BTCEX, Gemini, IndoEx, BitForex, SuperEx, Upbit, Currency,
+            XT, Hotbit и любые другие по вашему требованию и желанию); Банков и Нео банков Великобритании (Starling
+            Bank, Monzo, Revolut, Monese, bunq, Curve, Pockit, Wise), США (Chime, Current, Varo, Onjuno, Majority,
+            Capital One), Канада (Tangerine Bank, KOHO), ЕС (N26, Nuri, Tomorrow, Vivid Money), Германия (Fidor Bank,
+            Commerzbank, Comdirect, DKB), Швейцария (Neon, Yuh, CSX), Франция (Boursorama Banque, Nickel, Monabanq, Ma
+            French Bank, Fortuneo), Италия (Widiba, Hype, Buddybank, Illimity bank, Mooney), Бразилия (Nubank, Banco
+            Original, C6Bank, Banco BS2, Banco Inter), а также банки любых других стран и наименований.<br></span>
+        </p>
+        <p class="text">
+          <span class="text-wrapper-8">Также мы с удовольствием предоставим вам поддержку по вопросам открытия счетов,
+            подтверждения адреса и
+            любых других вопросов связанных с верификаций и подтверждением.</span>
+        </p>
+      </article>
+      <article>
+        <h2>КАКИЕ ДОКУМЕНТЫ ИСПОЛЬЗУЮТСЯ ДЛЯ ВЕРИФИКАЦИЙ?</h2>
+        <p class="text">
+          Для непосредственной верификации вас на требуемом ресурсе в первую очередь необходимо определиться:
+        </p>
+        <ul>
+          <li>
+            <p class="text">
+              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i>id
+              карты тех стран, которые не попали под санкции в отличие от РФ
+            </p>
+          </li>
+          <li>
+            <p class="text">
+              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i>
+              водительские удостоверения
+          </li>
+          <li>
+            <p class="text">
+              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i>
+              карты Внж (виды на жительство)
+            </p>
+          </li>
+          <li>
+            <p class="text">
+              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i>
+              карты Пмж (постоянное место жительство)
+
+            </p>
+          </li>
+          <li>
+            <p class="text">
+              <i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i><i class="bi bi-circle-fill"></i>
+              прочие документы по вашему запросу
+            </p>
+          </li>
+        </ul>
+        <p class="text-wrapper-20">
+          Также, очень часто люди, которые проверяют ваши документы, просят подтвердить адрес, на котором вы живете (это
+          будет адрес той страны, документ которой вы получили). Подтверждением адреса обычно служит счет за
+          коммунальные услуги, оплата сотовой связи, оплата кредита, выписка с кредитной карты и прочее.
+        </p>
+      </article>
+      <div class=" otzivi bg-dark row p-4 align-items-center">
+        <div class="text col-md-3 text-center">
+          <h5 class="text-white text-uppercase">ЛУЧШИЕ В СВОЕМ ДЕЛЕ, 5 БАЛЛОВ И НЕ МЕНЬШЕ!</h5>
+          <img src="img/frame-39.svg">
+        </div>
+        <div class="col-md-8">
+          <div class="row justify-content-between">
+            <div class="col-md-3 col-12 bg-white text-center p-3">
+              <img src="img/frame-11-3.svg ">
+              <h4 class="text-primary">Надежно</h4>
+              <p class="text">Любой вид отчетного документа по самой выгодной цене</p>
+            </div>
+            <div class="col-md-3 col-12 bg-white text-center p-3">
+              <img src="img/frame-11-3.svg">
+              <h4 class="text-primary">Надежно</h4>
+              <p class="">Любой вид отчетного документа по самой выгодной цене</p>
+            </div>
+            <div class="col-md-3 col-12  bg-white text-center p-3">
+              <img src="img/frame-11-3.svg">
+              <h4 class="text-primary">Надежно</h4>
+              <p class="">Любой вид отчетного документа по самой выгодной цене</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <article class="mt-2">
+        <p class="text-wrapper-20">
+          Дорогие друзья! Если вдруг у вас есть какие-либо предложения по сотрудничеству или вы не нашли нужный вам документ у нас на сайте, вы оптовый клиент или хотите работать с нам на постоянной основе - мы сделаем всё, чтобы вам было комфортно и в максимально сжатые сроки сделаем вам предложение, от которого вы не сможете отказаться!
+        </p>
+        <p class="text-wrapper-20">
+          Будьте абсолютно точно уверены, чтобы вы не захотели в рынке данных тематик, именно мы сможем сделать вам самое выгодное предложение и предоставить непревзойденное качество - работаем с клиентом до успеха, до победы.        </p>
+        <p class="text-wrapper-20">
+          Дорогие друзья! Если вдруг у вас есть какие-либо предложения по сотрудничеству или вы не нашли нужный вам документ у нас на сайте, вы оптовый клиент или хотите работать с нам на постоянной основе - мы сделаем всё, чтобы вам было комфортно и в максимально сжатые сроки сделаем вам предложение, от которого вы не сможете отказаться!
+        </p>
+        <p class="text-wrapper-20">
+          Дорогие друзья! Если вдруг у вас есть какие-либо предложения по сотрудничеству или вы не нашли нужный вам документ у нас на сайте, вы оптовый клиент или хотите работать с нам на постоянной основе - мы сделаем всё, чтобы вам было комфортно и в максимально сжатые сроки сделаем вам предложение, от которого вы не сможете отказаться!
+        </p>
+      </article>
+    </div>
+
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
