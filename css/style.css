@@ -245,6 +245,42 @@ margin-bottom: 1rem;
  .message{
     border-radius: 30px;
  }
+
+ /** before footer start*/
+.beforefooter{
+    background: url(/img/bacgroundbefor2.png) no-repeat;
+    background-position: left center;
+    background-size: cover;
+   
+    align-items: center;
+}
+.rech_box{
+    position: absolute;
+    padding: 10px;
+    width: 250px;
+    text-align: center;
+  top:-80px;
+  left:85px;
+}
+.rech_box:after{
+    content:"";
+    display:block;   
+   width: 0;
+    height: 0;
+    border-bottom: 70px solid #212529;
+    border-left: 100px solid transparent;
+    border-right: 50px solid transparen;
+    transform:rotate(200deg);
+    position:absolute;
+   top:100%;
+    left:-11px;
+    margin:-25px -20px 0 0;
+    z-index:-0;
+  }
+
+ /** before footer eend*/
+
+
 @media only screen and (max-width: 768px) {
     .mobil{
         display: block;
