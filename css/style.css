@@ -42,7 +42,7 @@
 *{
     margin:0;
     padding:0;
-    box-sizing: border-box;
+  
     font-size: 16px;
     
 }
@@ -54,6 +54,7 @@ background: #1B1D1F;
 padding:20px 0;
 
 }
+container{}
 .logo{
     text-align:center;
 }
@@ -278,12 +279,73 @@ margin-bottom: 1rem;
     z-index:-0;
   }
 
+  .form-control{
+    border-radius: 20px;
+    background: #DEDCDB;
+  }
+  .btn{
+    border-radius: 15px;
+background: #0D6EFD;
+  }
+  .bi-circle-fill{
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #0D6EFD;
+      margin-right: 5px ;
+      border-radius: 30px;
+  }
+  ul{
+      list-style: none;
+  }
+  .text{
+      margin-left: 5px;
+    color: #304748;
+font-family: Exo 2;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 170%; /* 34px */
+  }
  /** before footer eend*/
 
 
+ /*jnzizvi*/
+ .otzivi{
+    border-radius: 45px;
+    background: #3D3D3D;
+ }
+ .otzivi .col-md-8 img{
+     width: 34px;
+     height: 34px;
+ }
+ .otzivi h4{
+    color: #0D6EFD;
+    font-family: Exo 2;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 36px */
+    text-transform: uppercase;
+ }
+ .otzivi p{
+    color: #000;
+    text-align: center;
+    font-family: Exo 2;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 34px */ 
+ }
+ .otzivi .bg-white{
+    border-radius: 20px 0px;
+    border-bottom: 3px solid #0D6EFD;
+    background: #FFF;
+    padding: 15px;
+ }
 @media only screen and (max-width: 768px) {
     .mobil{
-        display: block;
+        display: flex;
     }
     .desktop,.navbr_main .desktop{
         display: none !important;
@@ -304,7 +366,12 @@ margin-bottom: 1rem;
         width: 100% !important;
 
     }
-
+    .logo h1{
+        font-size: 18px;
+    }
+    .logo p{
+        font-size: 6.4px
+    }
     .dropdowns .button span::after{
         content: "";
         display: inline-block;
@@ -320,6 +387,11 @@ margin-bottom: 1rem;
 
     }
   }
+  .text-wraper h4{
+      border-bottom: 1px solid #1B1D1F;
+      padding-bottom: 10px;
+  }
+ 
   @media only screen and (max-width: 500px) {
     body {
       background-color: lightblue;
