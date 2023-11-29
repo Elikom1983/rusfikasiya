@@ -283,9 +283,9 @@ margin-bottom: 1rem;
     border-radius: 20px;
     background: #DEDCDB;
   }
-  .btn{
+ .message .btn{
     border-radius: 15px;
-background: #0D6EFD;
+
   }
   .bi-circle-fill{
       display: inline-block;
@@ -316,8 +316,7 @@ line-height: 170%; /* 34px */
     background: #3D3D3D;
  }
  .otzivi .col-md-8 img{
-     width: 34px;
-     height: 34px;
+   
  }
  .otzivi h4{
     color: #0D6EFD;
@@ -343,7 +342,47 @@ line-height: 170%; /* 34px */
     background: #FFF;
     padding: 15px;
  }
+ .text-wraper h4{
+    border-bottom: 1px solid #1B1D1F;
+    padding-bottom: 10px;
+}
+ /* slider*/
+ .b-info .textslider{
+    border-radius: 50px;
+    background: #2D2E2E;
+    margin: 10px !important;
+    padding: 10px;
+   
+    text-align: center;
+ }
+ .owl-stage{
+     position: relative;
+ }
+ .owl-theme .owl-nav button{
+     margin: 0;
+     position: absolute;
+     left: 50%;
+     top:0%;
+ }
+ .owl-nav button span{
+     font-size: 100px !important;
+     color: #0D6EFD !important;
+     background: none !important;
+    
+ }
+ .owl-theme .owl-nav .owl-next{
+     left: 100%;
+ } 
+ .owl-theme .owl-nav .owl-prev{
+     left:-6%;
+ }
 @media only screen and (max-width: 768px) {
+    body{
+        background: #fff;
+     }
+     .arrow-messge {
+         display: none;
+     }
     .mobil{
         display: flex;
     }
@@ -354,6 +393,12 @@ line-height: 170%; /* 34px */
         display: block;
         width: 100%;
 
+    }
+    .owl-theme .owl-nav button{
+        margin: 0;
+        position: absolute;
+        left: 50%;
+        top:25%;
     }
     .dropdowns bottom{
         color: #fff;
@@ -386,12 +431,44 @@ line-height: 170%; /* 34px */
         margin-top: 10px;
 
     }
+     article h2{
+        color: #464745;
+        font-family: Exo 2;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .text{
+        color: #304748;
+        font-family: Exo 2;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal; 
+    }
+    .cardgroup .bg-white{
+        margin-top: 20px;
+    }
+    .otzivi, .message{
+        margin: 0 10px;
+    }
+   
+       
+        .rech_box{
+            position: relative;
+            padding: 10px;
+            width: 250px;
+            text-align: center;
+          top:0;
+          left:0;
+          margin-bottom: 10px;
+        }
+    }
   }
-  .text-wraper h4{
-      border-bottom: 1px solid #1B1D1F;
-      padding-bottom: 10px;
-  }
- 
+  
+
   @media only screen and (max-width: 500px) {
     body {
       background-color: lightblue;
