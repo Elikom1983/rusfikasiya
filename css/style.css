@@ -49,6 +49,7 @@
 body{
     font-size: 16px;
 }
+
 .header{
 background: #1B1D1F;
 padding:20px 0;
@@ -329,7 +330,7 @@ line-height: 170%; /* 34px */
  }
  .otzivi p{
     color: #000;
-    text-align: center;
+    ptext-align: center;
     font-family: Exo 2;
     font-size: 20px;
     font-style: normal;
@@ -347,7 +348,7 @@ line-height: 170%; /* 34px */
     padding-bottom: 10px;
 }
  /* slider*/
- .b-info .textslider{
+.b-info .textslider{
     border-radius: 50px;
     background: #2D2E2E;
     margin: 10px !important;
@@ -355,27 +356,76 @@ line-height: 170%; /* 34px */
    
     text-align: center;
  }
- .owl-stage{
+ .b-info .owl-stage{
      position: relative;
  }
- .owl-theme .owl-nav button{
+ .b-info .owl-theme .owl-nav button{
      margin: 0;
      position: absolute;
      left: 50%;
      top:0%;
  }
- .owl-nav button span{
+ .b-info .owl-nav button span{
      font-size: 100px !important;
      color: #0D6EFD !important;
      background: none !important;
-    
+   
  }
- .owl-theme .owl-nav .owl-next{
+
+ .b-info .owl-theme .owl-nav .owl-next{
      left: 100%;
  } 
- .owl-theme .owl-nav .owl-prev{
+ .b-info .owl-theme .owl-nav .owl-prev{
      left:-6%;
  }
+/* 'это для слайдер товар*/ 
+ /* Стили для миниатюрного слайдера */
+ .main-carousel .owl-carousel .owl-nav.disabled{
+    display: none;
+ }
+ .main-carousel .item{
+    padding: 36px;
+ }
+ .thumbnail-carousel .item {
+    padding: 28px;
+ }
+ 
+
+
+background: rgba(0, 0, 0, 0.10);
+ .thumbnail-carousel .owl-nav.disabled {
+    display: block;
+}
+.thumbnail-carousel .owl-nav button {
+position: absolute;
+margin-left: 15px;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+.thumbnail-carousel .owl-nav .owl-prev {
+    left: -25px;
+}
+
+.thumbnail-carousel .owl-nav .owl-next {
+    right: -25px;
+}
+ .thumbnail-carousel .owl-stage-outer {
+    overflow: hidden;
+}
+.thumbnail-carousel .owl-item {
+    margin: 0;
+}
+.thumbnail-carousel .owl-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+.form-class{
+    border-radius: 30px;
+}
+
+
+
+
 @media only screen and (max-width: 768px) {
     body{
         background: #fff;
